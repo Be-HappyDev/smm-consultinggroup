@@ -1,0 +1,100 @@
+.aboutBanner {
+  background-color: #1e2749;
+}
+
+.Banner,
+.blockRight {
+  height: 660px;
+}
+
+.Banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blockRight {
+  width: 100%;
+  padding: 70px 50px;
+}
+
+.compensateLayout {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 515px;
+  column-gap: 16px;
+}
+
+.leftPhotoBlock {
+  max-width: 400px;
+  border-radius: 20px;
+  justify-self: flex-end;
+}
+
+.leftPhotoBlock img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rightContentBlock {
+  position: relative;
+  right: 6vw;
+  top: 6vw;
+  z-index: 2;
+  max-width: 515px;
+  border-radius: 10px;
+  padding: 48px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .aboutBanner {
+    padding: 0 15px;
+  }
+  .Banner {
+    max-width: 615px;
+    height: 410px;
+    margin: 20px auto;
+    overflow: hidden;
+  }
+  .Banner img {
+    border-radius: 20px;
+  }
+  .blockRight {
+    width: 100%;
+    padding: 40px 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .compensateLayout {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 515px;
+    row-gap: 16px;
+  }
+  .leftPhotoBlock {
+    justify-self: center;
+  }
+  .rightContentBlock {
+    right: 0;
+    top: 0;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 455) {
+  .rightContentBlock h3 {
+    font-size: 20px !important;
+  }
+
+  .rightContentBlock p {
+    font-size: 13px !important;
+  }
+}

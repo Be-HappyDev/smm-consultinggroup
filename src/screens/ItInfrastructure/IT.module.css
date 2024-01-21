@@ -1,0 +1,225 @@
+.infrastructureGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 450px;
+  column-gap: 16px;
+}
+
+/* start 1 section */
+
+.infrastructureHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/* end 1 section */
+
+/* start 2 section */
+
+.projectPlanningPhoto {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  justify-self: center;
+  z-index: 1;
+  position: relative;
+}
+
+.projectPlanningPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.infoBox {
+  position: absolute;
+  bottom: 25px;
+  left: -100px;
+  max-width: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+}
+
+.infoBoxItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.infoBoxItem svg {
+  margin-right: 20px;
+}
+
+.projectPlanningContent {
+  justify-self: center;
+  align-self: center;
+  max-width: 470px;
+  padding: 25px;
+}
+
+.hardwareContent {
+  max-width: 450px;
+  justify-self: center;
+  align-self: center;
+  padding: 25px;
+}
+
+.hardwarePhoto {
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #81a094;
+}
+
+.hardwareCard {
+  position: relative;
+  top: -10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 353px;
+  min-height: 235px;
+  overflow: hidden;
+}
+
+.hardwareImage img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hardwareCardContent {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 0 0 20px 20px;
+}
+/* end 2 section */
+
+/* start 3 section */
+
+.cloudSolutionPhoto {
+  align-self: center;
+  position: relative;
+  max-width: 505px;
+  height: 330px;
+  border-radius: 20px;
+}
+
+.cloudSolutionPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.cloudSolutionText {
+  position: absolute;
+  bottom: 10px;
+  right: -20px;
+  width: 245px;
+  height: 155px;
+  padding: 14px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.cloudSolutionContent {
+  justify-self: center;
+  max-width: 510px;
+}
+
+/* end 3 section */
+
+/* start 4 section */
+
+.telephonyVoIPContent {
+  align-self: center;
+  max-width: 505px;
+}
+
+.telephonyVoIPPhoto {
+  align-self: center;
+
+  max-width: 740px;
+  height: 425px;
+  border-radius: 20px;
+}
+
+.telephonyVoIPPhoto img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* start 4 section */
+
+@media screen and (max-width: 767px) {
+  .hardwarePhoto,
+  .cloudSolutionPhoto {
+    justify-self: center;
+  }
+  .infoBoxItem p,
+  .cloudSolutionText p {
+    font-size: 12px;
+  }
+  .cloudSolution .cloudSolutionText,
+  .dataAnalitics .cloudSolutionText,
+  .cloudSolutionText {
+    position: relative;
+    bottom: 95px;
+    right: -50%;
+    transform: translateX(-50%);
+    height: 165px;
+  }
+
+  .cloudSolutionContent {
+    padding: 50px 0;
+  }
+  .telephonyVoIPPhoto {
+    height: 160px;
+  }
+  .telephonyVoIPPhoto img {
+      object-fit: cover;
+  }
+  .telephonyVoIPContent {
+    justify-self: center;
+  }
+  .projectPlanningContent p,
+  .cloudSolutionContent p,
+  .telephonyVoIPContent p {
+    font-size: 16px;
+  }
+  .telephonyVoIPContent h3,
+  .cloudSolutionContent h3,
+  .projectPlanningContent h4 {
+    font-size: 22px;
+  }
+  .infoBox {
+    bottom: -40px;
+    left: 0px;
+  }
+  .projectPlanningContent {
+    padding: 15px;
+  }
+  .hardwareContent {
+    padding: 0;
+  }
+}

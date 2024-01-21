@@ -1,0 +1,359 @@
+.infrastructureGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 450px;
+  column-gap: 16px;
+}
+
+/* start 1 section */
+
+.outsourceds {
+  padding-bottom: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 450px;
+  column-gap: 10px;
+}
+
+.outsourcedsCard {
+  position: relative;
+  max-width: 400px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.outsourcedsCard img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.outsourcedsCardText {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 5%;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.infrastructureHeading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+/* end 1 section */
+
+/* start 2 section */
+
+.Chat {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  align-self: center;
+  justify-self: center;
+  z-index: 1;
+  position: relative;
+}
+
+.ChatBox {
+  background-color: #fff;
+  max-width: 347px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+}
+
+.chatItem {
+  position: relative;
+  width: 360px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.male {
+  transform: translateX(-20%);
+}
+.female {
+  transform: translateX(10%);
+}
+
+.chatUserImage {
+  width: 90px;
+  height: 70px;
+  border-radius: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.chatUserImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.infoBoxItem svg {
+  margin-right: 20px;
+}
+
+.projectPlanningContent {
+  justify-self: center;
+  align-self: center;
+  max-width: 470px;
+  padding: 25px;
+}
+
+.hardwareContent {
+  max-width: 450px;
+  justify-self: center;
+  align-self: center;
+  padding: 25px;
+}
+
+.hardwarePhoto {
+  justify-self: center;
+  display: flex;
+  width: 100%;
+  max-width: 400px;
+  height: 500px;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #81a094;
+}
+
+.hardwareCard {
+  position: relative;
+  top: -10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 353px;
+  min-height: 235px;
+  overflow: hidden;
+}
+
+.hardwareImage img {
+  border-radius: 20px 20px 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hardwareCardContent {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 0 0 20px 20px;
+}
+/* end 2 section */
+
+/* start 3 section */
+
+.cloudSolutionPhoto {
+  align-self: center;
+  position: relative;
+  max-width: 505px;
+  height: 330px;
+  border-radius: 20px;
+}
+
+.cloudSolutionPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.cloudSolution .cloudSolutionText {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  right: -70px;
+  max-width: 345px;
+  height: 200px;
+  padding: 14px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.dataAnalitics .cloudSolutionText {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  right: -70px;
+  max-width: 345px;
+  height: 150px;
+  padding: 14px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.cloudSolutionContent {
+  align-self: center;
+  justify-self: center;
+  max-width: 510px;
+}
+
+/* end 3 section */
+
+.projectPlanningPhoto {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  justify-self: center;
+  z-index: 1;
+  position: relative;
+}
+
+.projectPlanningPhoto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.infoBox {
+  position: absolute;
+  bottom: 25px;
+  left: -100px;
+  max-width: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  z-index: 2;
+}
+
+.infoBoxItem {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.infoBoxItem svg {
+  margin-right: 20px;
+}
+
+.projectPlanningContent {
+  justify-self: center;
+  align-self: center;
+  max-width: 470px;
+  padding: 25px;
+}
+
+/* start 4 section */
+
+.telephonyVoIPContent {
+  align-self: center;
+  max-width: 505px;
+}
+
+.telephonyVoIPPhoto {
+  align-self: center;
+
+  max-width: 740px;
+  height: 525px;
+  border-radius: 20px;
+}
+.telephonyVoIPPhoto p {
+  font-family: "Reenie Beanie", cursive;
+}
+
+.telephonyVoIPPhoto img {
+  border-radius: 20px;
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+/* start 4 section */
+
+/* start 5 section */
+
+.microsoftBlock {
+  align-self: center;
+}
+
+.microsoftCards {
+  display: flex;
+}
+
+.microsoftCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.microsoftCard:first-child {
+  margin-right: 60px;
+}
+
+.microsoftCardItem {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* start 5 section */
+
+@media screen and (max-width: 767px) {
+    .hardwarePhoto,
+    .cloudSolutionPhoto {
+      justify-self: center;
+    }
+    .cloudSolutionText p {
+      font-size: 12px;
+    }
+    .cloudSolution .cloudSolutionText,
+    .dataAnalitics .cloudSolutionText {
+      position: relative;
+      bottom: 95px;
+      right: -50%;
+      transform: translateX(-50%);
+      height: 165px;
+    }
+  
+    .cloudSolutionContent {
+      padding: 50px 0;
+    }
+    .telephonyVoIPContent {
+      justify-self: center;
+    }
+    .telephonyVoIPContent p {
+      font-size: 16px;
+    }
+    .infoBox {
+      bottom: -40px;
+      left: 0px;
+    }
+    .projectPlanningContent {
+      padding: 15px;
+    }
+    .hardwareContent {
+      padding: 0;
+    }
+  }
+  

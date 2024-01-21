@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  background-color: #1e2749;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerContact {
+  width: 100%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.link svg {
+  margin-right: 15px;
+}
+
+.footerContanctInfo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
