@@ -221,7 +221,7 @@
     transform: translateX(-50%);
     top: 0;
     padding: 25px;
-    height: 300px;
+    height: inherit;
   }
 
   .rightContentBlock h3 {

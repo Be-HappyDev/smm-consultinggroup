@@ -89,17 +89,13 @@
   }
 }
 
-@media screen and (max-width: 455) {
-  .rightContentBlock h3 {
-    font-size: 20px !important;
-  }
 
-  .rightContentBlock p {
-    font-size: 13px !important;
-  }
-}
+
 
 @media screen and (max-width: 1025px) {
+  .compensateLayout {
+    grid-auto-rows: inherit;
+  }
   .blockRight h3 {
     font-size: 35px;
     text-align: center;
@@ -116,13 +112,22 @@
 
 @media screen and (max-width: 769px) {
   .rightContentBlock{
-    height: 350px;
+    height: inherit;
   }
 }
 
+@media screen and (max-width: 455) {
+  .rightContentBlock h3 {
+    font-size: 20px !important;
+  }
+
+  .rightContentBlock p {
+    font-size: 13px !important;
+  }
+}
 @media screen and (max-width: 481px) {
   .rightContentBlock{
-    height: 310px;
+    height: inherit;
     padding: 30px;
   }
   .compensateLayout {
@@ -146,6 +151,6 @@
     font-size: 16px;
   }
   .rightContentBlock{
-    height: 395px;
+    height: inherit;
   }
 }
