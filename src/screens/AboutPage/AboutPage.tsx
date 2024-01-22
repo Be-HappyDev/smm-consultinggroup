@@ -264,7 +264,7 @@ export const AboutPage = () => {
               component="p"
               sx={{ marginBottom: "15px", fontSize: { xs: "12px", md: "15px" }, fontWeight: "600" }}
             >
-              Young Technology Group is a locally owned Technology Services
+              Smm Consulting Group is a locally owned Technology Services
               Provider, offering a full range of IT services to business of all
               sizes and industries in the Central Valley, specifically in Fresno
               and Clovis.

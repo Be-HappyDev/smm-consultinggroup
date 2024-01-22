@@ -178,12 +178,14 @@
   .layoutGrid {
     grid-template-columns: 1fr;
     row-gap: 16px;
+    grid-auto-rows: inherit;
   }
   .topSectionLeft {
     order: 1;
     top: -10vw;
     left: 50%;
     transform: translateX(-50%);
+    height: 300px;
   }
   .contentInfo {
     padding: 0;
@@ -219,6 +221,7 @@
     transform: translateX(-50%);
     top: 0;
     padding: 25px;
+    height: 300px;
   }
 
   .rightContentBlock h3 {
@@ -227,5 +230,54 @@
 
   .rightContentBlock p {
     font-size: 13px;
+  }
+  .compensateLayout {
+    grid-auto-rows: inherit;
+  }
+  .topSectionLeft h1 {
+    width: 100%;
+    max-width: inherit;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .topSectionLeft h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .topSectionLeft h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .topSectionLeft p {
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .topSectionLeft {
+    height: 255px;
+    padding: 40px 20px;
+    align-items: center;
+  }
+  .rightContentBlock {
+    height: 345px;
+  }
+  .rightContentBlock h3 {
+    font-size: 17px;
+    text-align: center;
+  }
+  .rightContentBlock h5 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .rightContentBlock p {
+    font-size: 11px;
+    text-align: center;
+  }
+  .metricsCard h6 {
+    text-align: center;
   }
 }

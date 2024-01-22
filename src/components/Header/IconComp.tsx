@@ -5,10 +5,10 @@ import styles from "./Header.module.css";
 export const IconComp = () => {
   return (
     <>
-      <a className={styles.link} href="mailto:m.suiunyshova@gmail.com">
+      <a className={styles.link} href="mailto:info@smmconsultinggroup.com">
         <MailIcon />
       </a>
-      <a className={styles.link} href="tel:904-587-9682">
+      <a className={styles.link} href="tel:+1(904)587-9682 ">
         <IphoneIcon />
       </a>
     </>

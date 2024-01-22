@@ -319,41 +319,69 @@
 
 /* start 5 section */
 
-@media screen and (max-width: 767px) {
-    .hardwarePhoto,
-    .cloudSolutionPhoto {
-      justify-self: center;
-    }
-    .cloudSolutionText p {
-      font-size: 12px;
-    }
-    .cloudSolution .cloudSolutionText,
-    .dataAnalitics .cloudSolutionText {
-      position: relative;
-      bottom: 95px;
-      right: -50%;
-      transform: translateX(-50%);
-      height: 165px;
-    }
-  
-    .cloudSolutionContent {
-      padding: 50px 0;
-    }
-    .telephonyVoIPContent {
-      justify-self: center;
-    }
-    .telephonyVoIPContent p {
-      font-size: 16px;
-    }
-    .infoBox {
-      bottom: -40px;
-      left: 0px;
-    }
-    .projectPlanningContent {
-      padding: 15px;
-    }
-    .hardwareContent {
-      padding: 0;
-    }
+@media screen and (max-width: 1075px) {
+  .infoBox {
+    bottom: -45px;
+    left: inherit;
   }
-  
+  .cloudSolutionText {
+    bottom: -85px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gridBox {
+    grid-template-columns: inherit;
+  }
+  .hardwarePhoto,
+  .cloudSolutionPhoto {
+    justify-self: center;
+  }
+  .infoBoxItem p,
+  .cloudSolutionText p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .cloudSolution .cloudSolutionText,
+  .dataAnalitics .cloudSolutionText,
+  .cloudSolutionText {
+    position: relative;
+    bottom: 95px;
+    right: -50%;
+    transform: translateX(-50%);
+    height: 165px;
+  }
+
+  .cloudSolutionContent {
+    padding: 50px 0;
+  }
+  .telephonyVoIPPhoto img {
+    object-fit: cover;
+  }
+  .telephonyVoIPContent {
+    justify-self: center;
+  }
+  .projectPlanningContent p,
+  .cloudSolutionContent p,
+  .telephonyVoIPContent p {
+    font-size: 16px;
+  }
+  .telephonyVoIPContent h3,
+  .cloudSolutionContent h3,
+  .projectPlanningContent h4 {
+    font-size: 22px;
+  }
+  .infoBox {
+    bottom: -40px;
+    left: 0px;
+  }
+  .projectPlanningContent {
+    padding: 15px;
+  }
+  .hardwareContent {
+    padding: 0;
+  }
+}

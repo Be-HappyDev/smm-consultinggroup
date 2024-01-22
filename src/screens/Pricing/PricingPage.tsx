@@ -19,7 +19,7 @@ export const PricingPage = () => {
         </Typography>
 
         <Grid container spacing={2} columnSpacing={2}>
-          <Grid item md={6} xs={10} justifyContent={"center"}>
+          <Grid item md={6} xs={12} display={"flex"} justifyContent={"center"}>
             <Box component={"div"}>
               <Typography
                 variant="h6"
@@ -45,7 +45,7 @@ export const PricingPage = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={6} xs={10} justifyContent={"center"}>
+          <Grid item md={6} xs={12} display={"flex"} justifyContent={"center"}>
             <Box component={"div"}>
               <Typography
                 variant="h6"
@@ -84,7 +84,7 @@ export const PricingPage = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={6} xs={10} justifyContent={"center"}>
+          <Grid item md={6} xs={12} display={"flex"} justifyContent={"center"}>
             <Box component={"div"}>
               <Typography
                 variant="h6"
@@ -124,7 +124,7 @@ export const PricingPage = () => {
               </Typography>
             </Box>
           </Grid>
-          <Grid item md={6} xs={10} justifyContent={"center"}>
+          <Grid item md={6} xs={12} display={"flex"} justifyContent={"center"}>
             <Box component={"div"}>
               <Typography
                 variant="h6"

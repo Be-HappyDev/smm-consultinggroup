@@ -30,6 +30,7 @@
   border-radius: 20px;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .outsourcedsCardText {
@@ -226,6 +227,19 @@
   object-fit: cover;
 }
 
+@media screen and (max-width: 1075px) {
+  .infoBox {
+    bottom: -45px;
+    left: inherit;
+  }
+  .cloudSolutionText {
+    bottom: -85px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 300px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .hardwarePhoto,
   .cloudSolutionPhoto {
@@ -245,11 +259,27 @@
     height: 165px;
   }
 
+  .hardwarePhoto,
+  .cloudSolutionPhoto {
+    justify-self: center;
+  }
+  .infoBoxItem p,
+  .cloudSolutionText p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .cloudSolution .cloudSolutionText,
+  .dataAnalitics .cloudSolutionText,
+  .cloudSolutionText {
+    position: relative;
+    bottom: 95px;
+    right: -50%;
+    transform: translateX(-50%);
+    height: 165px;
+  }
+
   .cloudSolutionContent {
     padding: 50px 0;
-  }
-  .telephonyVoIPPhoto {
-    height: 160px;
   }
   .telephonyVoIPPhoto img {
     object-fit: cover;
@@ -267,6 +297,30 @@
   .projectPlanningContent h4 {
     font-size: 22px;
   }
+  .infoBox {
+    bottom: -40px;
+    left: 0px;
+  }
+  .projectPlanningContent {
+    padding: 15px;
+  }
+  .hardwareContent {
+    padding: 0;
+  }
+
+  .cloudSolutionContent {
+    padding: 50px 0;
+  }
+  .telephonyVoIPPhoto {
+    height: 160px;
+  }
+  .telephonyVoIPPhoto img {
+    object-fit: cover;
+  }
+  .telephonyVoIPContent {
+    justify-self: center;
+  }
+
   .infoBox {
     bottom: -40px;
     left: 0px;

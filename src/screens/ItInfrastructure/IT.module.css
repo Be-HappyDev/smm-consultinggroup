@@ -171,14 +171,32 @@
 
 /* start 4 section */
 
+@media screen and (max-width: 1075px) {
+  .infoBox {
+    bottom: -45px;
+    left: inherit;
+  }
+  .cloudSolutionText {
+    bottom: -85px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 300px;
+  }
+}
+
+
 @media screen and (max-width: 767px) {
+  .gridBox {
+    grid-template-columns: inherit;
+  }
   .hardwarePhoto,
   .cloudSolutionPhoto {
     justify-self: center;
   }
   .infoBoxItem p,
   .cloudSolutionText p {
-    font-size: 12px;
+    font-size: 14px;
+    text-align: center;
   }
   .cloudSolution .cloudSolutionText,
   .dataAnalitics .cloudSolutionText,
@@ -192,9 +210,6 @@
 
   .cloudSolutionContent {
     padding: 50px 0;
-  }
-  .telephonyVoIPPhoto {
-    height: 160px;
   }
   .telephonyVoIPPhoto img {
       object-fit: cover;
