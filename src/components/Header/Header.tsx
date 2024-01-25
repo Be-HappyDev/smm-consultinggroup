@@ -9,17 +9,20 @@ import List from "@mui/material/List";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import { useState } from "react";
 import { MyMenu } from "./MyMenu";
 import Link from "next/link";
 import { IconComp } from "./IconComp";
 import { cstyles } from "@/configs/globalStyle";
+import Logo from "../../images/fulllogo.png";
+import Image from "next/image";
+import styles from "./Header.module.css";
+import { useState } from "react";
 
 interface Props {
   window?: () => Window;
 }
 
-const drawerWidth = 240;
+const drawerWidth = 300;
 
 export const Header = (props: Props) => {
   const { window } = props;
@@ -43,7 +46,25 @@ export const Header = (props: Props) => {
           fontWeight: cstyles.fontWeights.bold,
         }}
       >
-        Smm-Consulting
+        <Link
+          href={`/`}
+          style={{
+            textDecoration: "none",
+            color: "#3FBBE9",
+            marginRight: "15px",
+            fontWeight: cstyles.fontWeights.bold,
+            display: "flex",
+            alignItems: "center",
+            height: "100%",
+          }}
+        >
+          <Image
+            src={Logo}
+            alt="logo"
+            style={{ width: "55px", height: "100%", objectFit: "cover" }}
+          />
+          <span className={styles.logo}>SMM Consulting Group</span>
+        </Link>
         <Box sx={{ display: "flex", marginTop: "10px" }}>
           <IconComp />
         </Box>
@@ -87,12 +108,20 @@ export const Header = (props: Props) => {
               href={`/`}
               style={{
                 textDecoration: "none",
-                color: "#000",
+                color: "#3FBBE9",
                 marginRight: "15px",
                 fontWeight: cstyles.fontWeights.bold,
+                display: "flex",
+                alignItems: "center",
+                height: "100%",
               }}
             >
-              Smm-Consulting
+              <Image
+                src={Logo}
+                alt="logo"
+                style={{ width: "55px", height: "100%", objectFit: "cover" }}
+              />
+              <span className={styles.logo}>SMM Consulting Group</span>
             </Link>
             <Box
               sx={{

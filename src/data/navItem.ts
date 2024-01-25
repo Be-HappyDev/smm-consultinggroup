@@ -121,6 +121,9 @@ export const ItServices = [
     menu: "Our Story",
   },
   {
+    menu: "Our Team",
+  },
+  {
     menu: "Contact Us",
     slug: "contact",
   },

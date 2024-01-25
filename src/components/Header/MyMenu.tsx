@@ -19,6 +19,7 @@ export const MyMenu = () => {
     setAnchorEl(event.currentTarget);
     setCurrentSubMenu(submenu);
   };
+
   return (
     <>
       {ItServices.map((item, index) => (
@@ -52,48 +53,77 @@ export const MyMenu = () => {
                   }}
                 >
                   {OurStory[0].dropdown.map((submenu) => (
-                    <>
-                      <MenuItem
-                        key={submenu.menuItem}
-                        component={Link}
-                        href={`/${submenu.slug}`}
-                        onClick={handleMenuClose}
-                        sx={{
-                          padding: { xs: "12px", sm: "15px" },
-                          borderRadius: "5px",
-                          fontWeight: cstyles.fontWeights.bold,
-
-                          fontSize: { xs: "12px", sm: "16px" },
+                    <MenuItem
+                      key={submenu.menuItem}
+                      component={Link}
+                      href={`/${submenu.slug}`}
+                      onClick={handleMenuClose}
+                      sx={{
+                        padding: { xs: "12px", sm: "15px" },
+                        borderRadius: "5px",
+                        fontWeight: cstyles.fontWeights.bold,
+                        fontSize: { xs: "12px", sm: "16px" },
+                        color: "#000",
+                      }}
+                    >
+                      {submenu.menuItem}
+                    </MenuItem>
+                  ))}
+                </Menu>
+              )}
+            </>
+          ) : item.menu === "Our Team" ? (
+            <>
+              <Button
+                color="inherit"
+                onClick={(e) => handleMenuClick(e, item.menu)}
+                sx={{
+                  color: "#000",
+                  fontWeight: cstyles.fontWeights.bold,
+                }}
+              >
+                {item.menu}
+              </Button>
+              {currentSubMenu === item.menu && (
+                <Menu
+                  anchorEl={anchorEl}
+                  open={Boolean(anchorEl)}
+                  onClose={handleMenuClose}
+                  MenuListProps={{
+                    sx: {
+                      width: "100%",
+                      display: "flex",
+                      padding: { xs: "3px", sm: "15px" },
+                      flexDirection: "column",
+                      fontWeight: cstyles.fontWeights.bold,
+                      color: "#000",
+                    },
+                  }}
+                >
+                  {OurTeam[0].dropdown.map((submenu) => (
+                    <MenuItem
+                      key={submenu.menuItem}
+                      onClick={handleMenuClose}
+                      sx={{
+                        padding: { xs: "12px", sm: "15px" },
+                        borderRadius: "5px",
+                        fontWeight: cstyles.fontWeights.bold,
+                        fontSize: { xs: "12px", sm: "16px" },
+                        color: "#000",
+                      }}
+                    >
+                      <a
+                        style={{
                           color: "#000",
+                          textDecoration: "none",
                         }}
+                        href={`https://${submenu.slug}`}
+                        target="_blank"
                       >
                         {submenu.menuItem}
-                      </MenuItem>
-                      <MenuItem
-                        onClick={handleMenuClose}
-                        sx={{
-                          padding: { xs: "12px", sm: "15px" },
-                          borderRadius: "5px",
-                          fontWeight: cstyles.fontWeights.bold,
-
-                          fontSize: { xs: "12px", sm: "16px" },
-                        }}
-                      >
-                        <a
-                          style={{
-                            color: "#000",
-                            textDecoration: "none",
-                            fontWeight: cstyles.fontWeights.bold,
-                          }}
-                          href="https://mairasuiunushova.ru"
-                          target="_blank"
-                        >
-                          Maira Suiunyshova CEO
-                        </a>
-                      </MenuItem>
-                    </>
+                      </a>
+                    </MenuItem>
                   ))}
-                  
                 </Menu>
               )}
             </>
@@ -153,9 +183,7 @@ export const MyMenu = () => {
                           color: "#000",
                           fontWeight: cstyles.fontWeights.bold,
                         }}
-                        href={`
-                          ${submenu.slug}
-                        `}
+                        href={`/${submenu.slug}`}
                       >
                         <Typography
                           key={submenu.menuHead}
