@@ -284,7 +284,7 @@ export const ItInfrastructurePage = () => {
                 variant="body2"
                 component={"p"}
                 sx={{
-                  color: "#E2E2E2",
+                  color: "#B5B5B5",
                 }}
               >
                 Mark Ford, President of JD Food

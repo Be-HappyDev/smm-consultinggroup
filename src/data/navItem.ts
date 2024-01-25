@@ -121,7 +121,7 @@ export const ItServices = [
     menu: "Our Story",
   },
   {
-    menu: "Contact",
+    menu: "Contact Us",
     slug: "contact"
   },
 ];

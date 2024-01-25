@@ -9,8 +9,7 @@ import recovery from "../../images/img/recovery.webp";
 import TelephonesIcon from "../../images/img/telephonesystems.webp";
 import MonitoringSevices from "../../images/img/monitoringServices.webp";
 import backup from "../../images/img/backup.webp";
-import controlSystem from "../../images/img/ControlSystems.webp";
-import envMonitoring from "../../images/img/monitoringSystems.webp";
+
 import MaleIcon from "../../images/img/male.webp";
 import FemaleIcon from "../../images/img/female.webp";
 import cardIcon1 from "../../images/img/businessmobiles.webp";
@@ -317,7 +316,7 @@ export const ItManagementPage = () => {
                 variant="body2"
                 component={"p"}
                 sx={{
-                  color: "#E2E2E2",
+                  color: "#B5B5B5",
                   fontSize: "17px",
                 }}
               >
@@ -585,7 +584,7 @@ export const ItManagementPage = () => {
                 variant="body2"
                 component={"p"}
                 sx={{
-                  color: "#E2E2E2",
+                  color: "#B5B5B5",
                 }}
               >
                 Steven Stoltz, Owner of Valley Health Resources, LLC

@@ -13,6 +13,7 @@ import { useState } from "react";
 import { MyMenu } from "./MyMenu";
 import Link from "next/link";
 import { IconComp } from "./IconComp";
+import { cstyles } from "@/configs/globalStyle";
 
 interface Props {
   window?: () => Window;
@@ -33,7 +34,14 @@ export const Header = (props: Props) => {
       <Typography
         onClick={handleDrawerToggle}
         variant="h6"
-        sx={{ my: 2, color: "#000", display: "flex", flexDirection: "column", alignItems: "center" }}
+        sx={{
+          my: 2,
+          color: "#000",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          fontWeight: cstyles.fontWeights.bold,
+        }}
       >
         Smm-Consulting
         <Box sx={{ display: "flex", marginTop: "10px" }}>
@@ -51,16 +59,15 @@ export const Header = (props: Props) => {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex", backgroundColor: "#F1E8E8" }}>
+    <Box sx={{ display: "flex", backgroundColor: "#fff" }}>
       <CssBaseline />
-      <AppBar component="nav" sx={{ backgroundColor: "#F1E8E8" }}>
-        <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
+      <AppBar component="nav" sx={{ backgroundColor: "var(--bg-color)" }}>
+        <Toolbar sx={{ display: "flex" }}>
           <IconButton
-            color="inherit"
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: "none" } }}
+            sx={{ mr: 2, display: { sm: "none" }, color: "#000" }}
           >
             <MenuIcon />
           </IconButton>
@@ -71,7 +78,7 @@ export const Header = (props: Props) => {
               flexGrow: 1,
               display: "flex",
               alignItems: "center",
-              justifyContent: { xs: "space-between", md: "flex-start" },
+              justifyContent: { xs: "flex-end", md: "space-between" },
               height: "40px",
               textAlign: { xs: "right", sm: "left" },
             }}
@@ -82,6 +89,7 @@ export const Header = (props: Props) => {
                 textDecoration: "none",
                 color: "#000",
                 marginRight: "15px",
+                fontWeight: cstyles.fontWeights.bold,
               }}
             >
               Smm-Consulting

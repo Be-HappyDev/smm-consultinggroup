@@ -19,9 +19,9 @@ export const Footer = () => {
           Contact
         </Typography>
         <Box component={"div"} className={styles.footerContanctInfo}>
-          <a href="mailto:m.suiunyshova@gmail.com" className={styles.link}>
+          <a href="mailto:info@smmconsultinggroup.com" className={styles.link}>
             <MailIcon />
-            m.suiunyshova@gmail.com
+            info@smmconsultinggroup.com
           </a>
           <a href="tel:904-587-9682" className={styles.link}>
             <PhoneSmallIcon />
@@ -32,11 +32,11 @@ export const Footer = () => {
             component={"p"}
             sx={{
               marginBottom: "20px",
-              textAlign: "left",
+              textAlign: { xs: "center", md: "left" },
               color: "#fff",
             }}
           >
-            73 Suzanne Lake Dr, St. <br /> Augustine FL 32095
+            10175 Fortune Parkway Ste 1103 Jacksonville, FL 32256
           </Typography>
         </Box>
       </Box>

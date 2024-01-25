@@ -10,7 +10,7 @@ import PeopleIcon from "@mui/icons-material/People";
 import BackpackIcon from "@mui/icons-material/Backpack";
 import cn from "classnames";
 import { Container } from "@mui/system";
-
+import { cstyles } from "@/configs/globalStyle";
 
 export const HomePage = () => {
   return (
@@ -57,6 +57,7 @@ export const HomePage = () => {
                 color: "#0053af",
                 marginBottom: "20px",
                 textAlign: "center",
+                fontWeight: cstyles.fontWeights.bold,
               }}
             >
               What we can do for you
@@ -88,7 +89,7 @@ export const HomePage = () => {
               your company its growth.
             </Typography>
             <div className={styles.contentInfoCards}>
-              <Link href={`#`}>
+              <Link href={`/it-infrastructure`}>
                 <div className={cn(styles.iconBlock)}>
                   <WebIcon />
                 </div>
@@ -100,7 +101,7 @@ export const HomePage = () => {
                   IT Infastructure
                 </Typography>
               </Link>
-              <Link href={`#`}>
+              <Link href={`/it-management`}>
                 <div className={cn(styles.iconBlock, styles.second)}>
                   <PeopleIcon />
                 </div>
@@ -112,7 +113,7 @@ export const HomePage = () => {
                   IT Management & Outsourcing
                 </Typography>
               </Link>
-              <Link href={`#`}>
+              <Link href={`/it-optimization`}>
                 <div className={cn(styles.iconBlock, styles.third)}>
                   <BackpackIcon />
                 </div>
@@ -135,7 +136,7 @@ export const HomePage = () => {
             component="h5"
             sx={{
               textAlign: "center",
-              fontWeight: "bold",
+              fontWeight: cstyles.fontWeights.bold,
               marginBottom: "30px",
               color: "#0053AF",
             }}
@@ -147,7 +148,7 @@ export const HomePage = () => {
             component="h3"
             sx={{
               textAlign: "center",
-              fontWeight: "bold",
+              fontWeight: cstyles.fontWeights.bold,
               marginBottom: "30px",
             }}
           >
@@ -220,7 +221,7 @@ export const HomePage = () => {
                   fontWeight: "600",
                 }}
               >
-                Since Young Technology Group s inception, almost no clients have
+                Since smm consulting Group s inception, almost no clients have
                 ever left us. We invest in your business - and the results speak
                 for themselves!
               </Typography>
@@ -236,7 +237,7 @@ export const HomePage = () => {
                   marginBottom: "20px",
                 }}
               >
-                35+
+                8+
               </Typography>
               <Typography
                 variant="h6"

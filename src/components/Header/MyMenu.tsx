@@ -1,4 +1,5 @@
 "use client";
+import { cstyles } from "@/configs/globalStyle";
 import { ItServices, OurStory } from "@/data/navItem";
 import { Box, Link, Menu, MenuItem, Typography } from "@mui/material";
 import Button from "@mui/material/Button";
@@ -28,7 +29,8 @@ export const MyMenu = () => {
                 color="inherit"
                 onClick={(e) => handleMenuClick(e, item.menu)}
                 sx={{
-                  color: "#000"
+                  color: "#000",
+                  fontWeight: cstyles.fontWeights.bold,
                 }}
               >
                 {item.menu}
@@ -44,7 +46,8 @@ export const MyMenu = () => {
                       display: "flex",
                       padding: { xs: "3px", sm: "15px" },
                       flexDirection: "column",
-                      color: "#000"
+                      fontWeight: cstyles.fontWeights.bold,
+                      color: "#000",
                     },
                   }}
                 >
@@ -58,9 +61,10 @@ export const MyMenu = () => {
                         sx={{
                           padding: { xs: "12px", sm: "15px" },
                           borderRadius: "5px",
-                          fontWeight: "bold",
+                          fontWeight: cstyles.fontWeights.bold,
+
                           fontSize: { xs: "12px", sm: "16px" },
-                          color: "#000"
+                          color: "#000",
                         }}
                       >
                         {submenu.menuItem}
@@ -70,14 +74,22 @@ export const MyMenu = () => {
                         sx={{
                           padding: { xs: "12px", sm: "15px" },
                           borderRadius: "5px",
-                          fontWeight: "bold",
+                          fontWeight: cstyles.fontWeights.bold,
+
                           fontSize: { xs: "12px", sm: "16px" },
                         }}
                       >
-                        <a style={{
-                          color: "#000",
-                          textDecoration: "none"
-                        }} href="https://mairasuiunushova.ru" target="_blank">Maira Suiunyshova CEO</a>
+                        <a
+                          style={{
+                            color: "#000",
+                            textDecoration: "none",
+                            fontWeight: cstyles.fontWeights.bold,
+                          }}
+                          href="https://mairasuiunushova.ru"
+                          target="_blank"
+                        >
+                          Maira Suiunyshova CEO
+                        </a>
                       </MenuItem>
                     </>
                   ))}
@@ -91,6 +103,7 @@ export const MyMenu = () => {
                   <Button
                     sx={{
                       color: "#000",
+                      fontWeight: cstyles.fontWeights.bold,
                     }}
                     onClick={(e) => handleMenuClick(e, item.menu)}
                   >
@@ -103,6 +116,7 @@ export const MyMenu = () => {
                   onClick={(e) => handleMenuClick(e, item.menu)}
                   sx={{
                     color: "#000",
+                    fontWeight: cstyles.fontWeights.bold,
                   }}
                 >
                   {item.menu}
@@ -120,6 +134,7 @@ export const MyMenu = () => {
                       display: "flex",
                       padding: { xs: "0", sm: "15px" },
                       flexDirection: { xs: "column", sm: "row" },
+                      fontWeight: cstyles.fontWeights.bold,
                     },
                   }}
                 >
@@ -128,12 +143,14 @@ export const MyMenu = () => {
                       key={submenu.menuHead}
                       sx={{
                         width: "100%",
+                        fontWeight: cstyles.fontWeights.bold,
                       }}
                     >
                       <Link
                         style={{
                           textDecoration: "none",
                           color: "#000",
+                          fontWeight: cstyles.fontWeights.bold,
                         }}
                         href={`
                           ${submenu.slug}
@@ -144,7 +161,7 @@ export const MyMenu = () => {
                           onClick={handleMenuClose}
                           sx={{
                             padding: "15px",
-                            fontWeight: "900",
+                            fontWeight: cstyles.fontWeights.bold,
                             borderBottom: "1px solid #000",
                             ":hover": {
                               backgroundColor: "#F9F5EC",
@@ -165,8 +182,9 @@ export const MyMenu = () => {
                           sx={{
                             padding: { xs: "7px", sm: "16px" },
                             borderRadius: "5px",
-                            fontWeight: "bold",
-                            fontSize: { xs: "12px", sm: "16px" },
+                            fontWeight: cstyles.fontWeights.bold,
+
+                            fontSize: { xs: "13px", sm: "16px" },
                           }}
                         >
                           {menuItem.menuItem}
