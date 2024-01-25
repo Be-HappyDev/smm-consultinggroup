@@ -2,7 +2,7 @@ import { Section } from "@/components/Section/Section";
 import styles from "./HomePage.module.css";
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
-import menegerImage from "../../images/img/Managed.webp";
+import menegerImage from "../../images/img/2150709808.jpg";
 import technicians from "../../images/img/technicians.webp";
 import Link from "next/link";
 import WebIcon from "@mui/icons-material/Web";
