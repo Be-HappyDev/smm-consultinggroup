@@ -149,7 +149,7 @@ export const ItOptimizationPage = () => {
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "space-between",
-                flexDirection: { xs: "column", md: "row" }
+                flexDirection: { xs: "column", md: "row" },
               }}
             >
               <Box component={"div"}>
@@ -257,16 +257,6 @@ export const ItOptimizationPage = () => {
                 The database that they designed for our business continues to
                 serve us well and our manager has been very pleased with how it
                 has streamlined day-to-day flow at the office.
-              </Typography>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#E2E2E2",
-                  fontSize: "17px",
-                }}
-              >
-                Steven Stoltz, Owner of Valley Health Resources.
               </Typography>
             </div>
           </div>
@@ -385,7 +375,7 @@ export const ItOptimizationPage = () => {
           </div>
         </GridBox>
       </Section>
-      <Section id="consultWithaDedicatedCIO"> 
+      <Section id="consultWithaDedicatedCIO">
         <GridBox className={cn(styles.projectPlanning)}>
           <div className={styles.projectPlanningPhoto}>
             <Image src={internetIcon} alt="internetIcon" />
@@ -553,16 +543,6 @@ export const ItOptimizationPage = () => {
               >
                 Consistently focuses on meeting the needs of the business and
                 inspiring people to live into their utmost potential.
-              </Typography>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#E2E2E2",
-                  fontSize: "17px",
-                }}
-              >
-                Rolando Salinas, Global Customer Care at Arbonne
               </Typography>
             </div>
           </div>

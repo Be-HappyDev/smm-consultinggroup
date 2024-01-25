@@ -221,7 +221,7 @@ export const HomePage = () => {
                   fontWeight: "600",
                 }}
               >
-                Since smm consulting Group s inception, almost no clients have
+                Since SMM Consulting Group s inception, almost no clients have
                 ever left us. We invest in your business - and the results speak
                 for themselves!
               </Typography>
@@ -291,14 +291,14 @@ export const HomePage = () => {
                 fontSize: "40px",
               }}
             >
-              Your full-service IT provider in Central Valley
+              Your full-service IT provider in United States
             </Typography>
             <Typography
               variant="body2"
               component="p"
               sx={{ marginBottom: "15px", fontSize: "15px", fontWeight: "600" }}
             >
-              With more than 35 years in the IT-management and technology
+              With more than 8+ years in the IT-management and technology
               consulting industry, our team has nearly unmatched expertise and
               knowledge. We don’t just settle for the basics. Instead, our team
               constantly trains, so we can live up to our reputation of giving

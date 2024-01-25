@@ -299,30 +299,6 @@ export const ItManagementPage = () => {
         <GridBox className={cn(styles.cloudSolution)}>
           <div className={styles.cloudSolutionPhoto}>
             <Image src={TelephonesIcon} alt="TelephonesIcon" />
-            <div className={styles.cloudSolutionText}>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#000",
-                  marginBottom: "10px",
-                  fontSize: "15px",
-                }}
-              >
-                I recommend them to all of my friends when they ask and I have
-                zero hesitation to do so.
-              </Typography>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#B5B5B5",
-                  fontSize: "17px",
-                }}
-              >
-                Caleb Lewis, Operations Manager at NRT Inc.
-              </Typography>
-            </div>
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography
@@ -568,28 +544,6 @@ export const ItManagementPage = () => {
         <GridBox className={cn(styles.securityCamera)}>
           <div className={styles.cloudSolutionPhoto}>
             <Image src={backup} alt="backup" />
-            <div className={styles.cloudSolutionText}>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#000",
-                  marginTop: "10px",
-                  marginBottom: "20px",
-                }}
-              >
-                Has been a great asset for our small business.
-              </Typography>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#B5B5B5",
-                }}
-              >
-                Steven Stoltz, Owner of Valley Health Resources, LLC
-              </Typography>
-            </div>
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography

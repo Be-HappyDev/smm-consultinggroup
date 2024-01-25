@@ -115,22 +115,25 @@ export const ItServices = [
   },
   {
     menu: "Pricing",
-    slug: "pricing"
+    slug: "pricing",
   },
   {
     menu: "Our Story",
   },
   {
     menu: "Contact Us",
-    slug: "contact"
+    slug: "contact",
   },
 ];
 
 export const OurStory = [
   {
-    dropdown: [
-      { menuItem: "About Us", slug: "about-us" },
+    dropdown: [{ menuItem: "About Us", slug: "about-us" }],
+  },
+];
 
-    ],
+export const OurTeam = [
+  {
+    dropdown: [{ menuItem: "Maira Suiunushova CEO", slug: "mairasuiunushova.ru" }],
   },
 ];

@@ -100,11 +100,11 @@ export const ContactPage = () => {
 
               <Box component={"div"}>
                 <a
-                  href="mailto:m.suiunyshova@gmail.com"
+                  href="mailto:info@smmconsultinggroup.com"
                   className={styles.link}
                 >
                   <MailIcon />
-                  m.suiunyshova@gmail.com
+                  info@smmconsultinggroup.com
                 </a>
                 <a href="tel:+1(904)587-9682" className={styles.link}>
                   <PhoneSmallIcon />

@@ -268,28 +268,7 @@ export const ItInfrastructurePage = () => {
         <GridBox className={cn(styles.cloudSolution)}>
           <div className={styles.cloudSolutionPhoto}>
             <Image src={CloudSolution} alt="CloudSolution" />
-            <div className={styles.cloudSolutionText}>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#000",
-                  marginBottom: "10px",
-                }}
-              >
-                I am grateful for their commitment to help our company grow and
-                succeed and always find better ways of getting our job done.
-              </Typography>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#B5B5B5",
-                }}
-              >
-                Mark Ford, President of JD Food
-              </Typography>
-            </div>
+        
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography
@@ -436,28 +415,7 @@ export const ItInfrastructurePage = () => {
         <GridBox className={cn(styles.securityCamera)}>
           <div className={styles.cloudSolutionPhoto}>
             <Image src={Camera} alt="Camera" />
-            <div className={styles.cloudSolutionText}>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#000",
-                  marginBottom: "10px",
-                }}
-              >
-                I am grateful for their commitment to help our company grow and
-                succeed and always find better ways of getting our job done.
-              </Typography>
-              <Typography
-                variant="body2"
-                component={"p"}
-                sx={{
-                  color: "#E2E2E2",
-                }}
-              >
-                Mark Ford, President of JD Food
-              </Typography>
-            </div>
+      
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography
