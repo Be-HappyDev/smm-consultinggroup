@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { Container } from "@mui/system";
-import MailIcon from "../../images/Emailsmall.svg";
-import PhoneSmallIcon from "../../images/phoneSmall.svg";
+import MailIcon from "../../image/Emailsmall.svg";
+import PhoneSmallIcon from "../../image/phoneSmall.svg";
 import styles from "./Contact.module.css";
 
 export const ContactPage = () => {

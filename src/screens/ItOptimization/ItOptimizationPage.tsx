@@ -4,14 +4,8 @@ import { GridBox } from "@/components/LeftRightBox/GridBox";
 import { Box, List, ListItem, Typography } from "@mui/material";
 import cn from "classnames";
 import { cstyles } from "@/configs/globalStyle";
-import Image from "next/image";
-import helper from "../../images/img/header.webp";
-import Hsarepoint from "../../images/img/sharepoint.webp";
-import InterestedIcon from "../../images/img/Interested.webp";
-import DataAnlytics from "../../images/img/dataAnalytics.webp";
-import internetIcon from "../../images/img/internetAndConnectivity.webp";
-import CodeDoorIcon from "../../images/codeDoor.svg";
-import NoutBookIcon from "../../images/noutbook.svg";
+import CodeDoorIcon from "../../image/codeDoor.svg";
+import NoutBookIcon from "../../image/noutbook.svg";
 import styles from "./ItOptimization.module.css";
 import { Container } from "@mui/system";
 
@@ -199,7 +193,7 @@ export const ItOptimizationPage = () => {
           <div className={styles.hardwarePhoto}>
             <div className={styles.hardwareCard}>
               <div className={styles.hardwareImage}>
-                <Image src={helper} alt="helper" />
+                <img src={"/images/img/header.webp"} alt="helper" />
               </div>
               <div className={styles.hardwareCardContent}>
                 <Typography
@@ -243,7 +237,7 @@ export const ItOptimizationPage = () => {
       <Section id="software&Workflows">
         <GridBox className={cn(styles.cloudSolution)}>
           <div className={styles.cloudSolutionPhoto}>
-            <Image src={Hsarepoint} alt="Hsarepoint" />
+            <img src={"/images/img/sharepoint.webp"} alt="Hsarepoint" />
             <div className={styles.cloudSolutionText}>
               <Typography
                 variant="body2"
@@ -357,7 +351,7 @@ export const ItOptimizationPage = () => {
                 transform: "rotate(5deg)",
               }}
             >
-              <Image src={InterestedIcon} alt="InterestedIcon" />
+              <img src={"/images/img/Interested.webp"} alt="InterestedIcon" />
               <Typography
                 variant="body2"
                 component={"p"}
@@ -378,7 +372,7 @@ export const ItOptimizationPage = () => {
       <Section id="consultWithaDedicatedCIO">
         <GridBox className={cn(styles.projectPlanning)}>
           <div className={styles.projectPlanningPhoto}>
-            <Image src={internetIcon} alt="internetIcon" />
+            <img src={"/images/img/internetAndConnectivity.webp"} alt="internetIcon" />
             <div className={styles.infoBox}>
               <div className={styles.infoBoxItem}>
                 <CodeDoorIcon />
@@ -530,7 +524,7 @@ export const ItOptimizationPage = () => {
       <Section id="dataAnalytics">
         <GridBox className={cn(styles.dataAnalitics)}>
           <div className={styles.cloudSolutionPhoto}>
-            <Image src={DataAnlytics} alt="DataAnlytics" />
+            <img src={"/images/img/dataAnalytics.webp"} alt="DataAnlytics" />
             <div className={styles.cloudSolutionText}>
               <Typography
                 variant="body2"

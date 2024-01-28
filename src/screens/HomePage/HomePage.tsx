@@ -1,9 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import { Section } from "@/components/Section/Section";
 import styles from "./HomePage.module.css";
 import { Box, Typography } from "@mui/material";
-import Image from "next/image";
-import menegerImage from "../../images/img/2150709808.jpg";
-import technicians from "../../images/img/technicians.webp";
 import Link from "next/link";
 import WebIcon from "@mui/icons-material/Web";
 import PeopleIcon from "@mui/icons-material/People";
@@ -43,7 +41,7 @@ export const HomePage = () => {
             </Typography>
           </div>
           <div className={styles.topSectionRight}>
-            <Image src={menegerImage} alt="meneger" />
+            <img src={"/images/img/2150709808.jpg"} alt="meneger" />
           </div>
         </div>
       </Section>
@@ -267,7 +265,7 @@ export const HomePage = () => {
       <Section>
         <Box component={"div"} className={styles.compensateLayout}>
           <Box component={"div"} className={styles.leftPhotoBlock}>
-            <Image src={technicians} alt={"technicians"} />
+            <img src={"/images/img/technicians.webp"} alt={"technicians"} />
           </Box>
           <Box component={"div"} className={styles.rightContentBlock}>
             <Typography

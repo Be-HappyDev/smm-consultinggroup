@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -13,8 +14,7 @@ import { MyMenu } from "./MyMenu";
 import Link from "next/link";
 import { IconComp } from "./IconComp";
 import { cstyles } from "@/configs/globalStyle";
-import Logo from "../../images/fulllogo.png";
-import Image from "next/image";
+
 import styles from "./Header.module.css";
 import { useState } from "react";
 
@@ -58,8 +58,8 @@ export const Header = (props: Props) => {
             height: "100%",
           }}
         >
-          <Image
-            src={Logo}
+          <img
+            src="/images/fulllogo.png"
             alt="logo"
             style={{ width: "55px", height: "100%", objectFit: "cover" }}
           />
@@ -116,8 +116,8 @@ export const Header = (props: Props) => {
                 height: "100%",
               }}
             >
-              <Image
-                src={Logo}
+              <img
+                src="/images/fulllogo.png"
                 alt="logo"
                 style={{ width: "55px", height: "100%", objectFit: "cover" }}
               />

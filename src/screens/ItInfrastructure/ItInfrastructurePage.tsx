@@ -4,16 +4,8 @@ import { Box, List, ListItem, Typography } from "@mui/material";
 import cn from "classnames";
 import { cstyles } from "@/configs/globalStyle";
 import styles from "./IT.module.css";
-import Image from "next/image";
-import Planning from "../../images/img/planning.webp";
-import Hardware from "../../images/img/hardware.webp";
-import CloudSolution from "../../images/img/CloudSolution.webp";
-import TelephonyVoIP from "../../images/img/telephony.webp";
-import Camera from "../../images/img/securityCamera.webp";
-import controlSystem from "../../images/img/ControlSystems.webp";
-import envMonitoring from "../../images/img/monitoringSystems.webp";
-import AnaliticsIcon from "../../images/analytics.svg";
-import IphoneIcon from "../../images/iphone.svg";
+import AnaliticsIcon from "../../image/analytics.svg";
+import IphoneIcon from "../../image/iphone.svg";
 import { GridBox } from "@/components/LeftRightBox/GridBox";
 import { Container } from "@mui/system";
 
@@ -77,7 +69,7 @@ export const ItInfrastructurePage = () => {
       <Section id="projectPlanning">
         <GridBox className={cn(styles.projectPlanning)}>
           <div className={styles.projectPlanningPhoto}>
-            <Image src={Planning} alt="planning" />
+            <img src="/images/img/planning.webp" alt="planning" />
             <div className={styles.infoBox}>
               <div className={styles.infoBoxItem}>
                 <AnaliticsIcon />
@@ -225,7 +217,7 @@ export const ItInfrastructurePage = () => {
           <div className={styles.hardwarePhoto}>
             <div className={styles.hardwareCard}>
               <div className={styles.hardwareImage}>
-                <Image src={Hardware} alt="Hardware" />
+                <img src="/images/img/hardware.webp" alt="Hardware" />
               </div>
               <div className={styles.hardwareCardContent}>
                 <Typography
@@ -267,7 +259,7 @@ export const ItInfrastructurePage = () => {
       <Section id="cloudSolutions">
         <GridBox className={cn(styles.cloudSolution)}>
           <div className={styles.cloudSolutionPhoto}>
-            <Image src={CloudSolution} alt="CloudSolution" />
+            <img src="/images/img/CloudSolution.webp" alt="CloudSolution" />
         
           </div>
           <div className={styles.cloudSolutionContent}>
@@ -407,14 +399,14 @@ export const ItInfrastructurePage = () => {
             </Typography>
           </div>
           <div className={styles.telephonyVoIPPhoto}>
-            <Image src={TelephonyVoIP} alt="TelephonyVoIP" />
+            <img src="/images/img/telephony.webp" alt="TelephonyVoIP" />
           </div>
         </GridBox>
       </Section>
       <Section id="surveillanceAndSecurityCameras">
         <GridBox className={cn(styles.securityCamera)}>
           <div className={styles.cloudSolutionPhoto}>
-            <Image src={Camera} alt="Camera" />
+            <img src="/images/img/securityCamera.webp" alt="Camera" />
       
           </div>
           <div className={styles.cloudSolutionContent}>
@@ -548,14 +540,14 @@ export const ItInfrastructurePage = () => {
             </Typography>
           </div>
           <div className={styles.telephonyVoIPPhoto}>
-            <Image src={controlSystem} alt="controlSystem" />
+            <img src={"/images/img/ControlSystems.webp"} alt="controlSystem" />
           </div>
         </GridBox>
       </Section>
       <Section id="environmentalMonitoring">
         <GridBox className={cn(styles.envMonitoring)}>
           <div className={styles.telephonyVoIPPhoto}>
-            <Image src={envMonitoring} alt="envMonitoring" />
+            <img src={"/images/img/monitoringSystems.webp"} alt="envMonitoring" />
           </div>
           <div className={styles.telephonyVoIPContent}>
             <Typography

@@ -1,12 +1,9 @@
 import { cstyles } from "@/configs/globalStyle";
 import { Box, Grid, Typography } from "@mui/material";
-import Image from "next/image";
 import React from "react";
-import picturse from "../../images/img/Telecom.webp";
-import picturse2 from "../../images/img/internetAndConnectivity.webp";
 
-import AppIcon from "../../images/application.svg";
-import PhoneIphoneIcon from "../../images/phoneiphone.svg";
+import AppIcon from "../../image/application.svg";
+import PhoneIphoneIcon from "../../image/phoneiphone.svg";
 
 import styles from "./AboutPage.module.css";
 import { Container } from "@mui/system";
@@ -73,7 +70,7 @@ export const AboutPage = () => {
         <Grid container spacing={0}>
           <Grid item xs={12} md={6}>
             <Box component={"div"} className={styles.Banner}>
-              <Image src={picturse} alt="about banner" />
+              <img src={"/images/img/Telecom.webp"} alt="about banner" />
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
@@ -233,7 +230,7 @@ export const AboutPage = () => {
       <Section>
         <Box component={"div"} className={styles.compensateLayout}>
           <Box component={"div"} className={styles.leftPhotoBlock}>
-            <Image src={picturse2} alt={"technicians"} />
+            <img src={"/images/img/internetAndConnectivity.webp"} alt={"technicians"} />
           </Box>
           <Box component={"div"} className={styles.rightContentBlock}>
             <Typography

@@ -4,17 +4,7 @@ import { GridBox } from "@/components/LeftRightBox/GridBox";
 import { Box, List, ListItem, Typography } from "@mui/material";
 import cn from "classnames";
 import { cstyles } from "@/configs/globalStyle";
-import Image from "next/image";
-import recovery from "../../images/img/recovery.webp";
-import TelephonesIcon from "../../images/img/telephonesystems.webp";
-import MonitoringSevices from "../../images/img/monitoringServices.webp";
-import backup from "../../images/img/backup.webp";
 
-import MaleIcon from "../../images/img/male.webp";
-import FemaleIcon from "../../images/img/female.webp";
-import cardIcon1 from "../../images/img/businessmobiles.webp";
-import cardIcon2 from "../../images/img/cloudstorage.webp";
-import cardIcon3 from "../../images/img/broadbandservice.webp";
 import styles from "./ItManagement.module.css";
 import Link from "next/link";
 import { Container } from "@mui/system";
@@ -67,7 +57,10 @@ export const ItManagementPage = () => {
         <Box component={"div"} className={styles.outsourceds}>
           <Link href={"#helpdesk&Support"}>
             <div className={styles.outsourcedsCard}>
-              <Image src={cardIcon1} alt="businessmobiles" />
+              <img
+                src={"/images/img/businessmobiles.webp"}
+                alt="businessmobiles"
+              />
               <div className={styles.outsourcedsCardText}>
                 <Typography
                   variant="h3"
@@ -97,7 +90,7 @@ export const ItManagementPage = () => {
           </Link>
           <Link href={"#proactiveMaintenance"}>
             <div className={styles.outsourcedsCard}>
-              <Image src={cardIcon2} alt="cloudstorage" />
+              <img src={"/images/img/cloudstorage.webp"} alt="cloudstorage" />
               <div className={styles.outsourcedsCardText}>
                 <Typography
                   variant="h3"
@@ -127,7 +120,10 @@ export const ItManagementPage = () => {
           </Link>
           <Link href={"#cyberSecurity&Anti-virus"}>
             <div className={styles.outsourcedsCard}>
-              <Image src={cardIcon3} alt="broadbandservice" />
+              <img
+                src={"/images/img/broadbandservice.webp"}
+                alt="broadbandservice"
+              />
               <div className={styles.outsourcedsCardText}>
                 <Typography
                   variant="h3"
@@ -201,7 +197,7 @@ export const ItManagementPage = () => {
             <div className={styles.ChatBox}>
               <div className={cn(styles.chatItem, styles.male)}>
                 <div className={styles.chatUserImage}>
-                  <Image src={MaleIcon} alt="MaleIcon" />
+                  <img src={"/images/img/male.webp"} alt="MaleIcon" />
                 </div>
                 <Typography
                   variant="body2"
@@ -242,12 +238,12 @@ export const ItManagementPage = () => {
                   That? Here, I{"'"}ll grab it for you.
                 </Typography>
                 <div className={styles.chatUserImage}>
-                  <Image src={FemaleIcon} alt="FemaleIcon" />
+                  <img src={"/images/img/female.webp"} alt="FemaleIcon" />
                 </div>
               </div>
               <div className={cn(styles.chatItem, styles.male)}>
                 <div className={styles.chatUserImage}>
-                  <Image src={MaleIcon} alt="MaleIcon" />
+                  <img src={"/images/img/male.webp"} alt="MaleIcon" />
                 </div>
                 <Typography
                   variant="body2"
@@ -288,7 +284,7 @@ export const ItManagementPage = () => {
                   Most welcome! ✌️
                 </Typography>
                 <div className={styles.chatUserImage}>
-                  <Image src={FemaleIcon} alt="FemaleIcon" />
+                  <img src={"/images/img/female.webp"} alt="FemaleIcon" />
                 </div>
               </div>
             </div>
@@ -298,7 +294,10 @@ export const ItManagementPage = () => {
       <Section id="proactiveMaintenance">
         <GridBox className={cn(styles.cloudSolution)}>
           <div className={styles.cloudSolutionPhoto}>
-            <Image src={TelephonesIcon} alt="TelephonesIcon" />
+            <img
+              src={"/images/img/telephonesystems.webp"}
+              alt="TelephonesIcon"
+            />
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography
@@ -409,7 +408,10 @@ export const ItManagementPage = () => {
             </Typography>
           </div>
           <div className={styles.telephonyVoIPPhoto}>
-            <Image src={MonitoringSevices} alt="MonitoringSevices" />
+            <img
+              src={"/images/img/monitoringServices.webp"}
+              alt="MonitoringSevices"
+            />
           </div>
         </GridBox>
       </Section>
@@ -500,7 +502,7 @@ export const ItManagementPage = () => {
           <div className={styles.hardwarePhoto}>
             <div className={styles.hardwareCard}>
               <div className={styles.hardwareImage}>
-                <Image src={recovery} alt="recovery" />
+                <img src={"/images/img/recovery.webp"} alt="recovery" />
               </div>
               <div className={styles.hardwareCardContent}>
                 <Typography
@@ -543,7 +545,7 @@ export const ItManagementPage = () => {
       <Section id="dataBackups&DisasterRecovery">
         <GridBox className={cn(styles.securityCamera)}>
           <div className={styles.cloudSolutionPhoto}>
-            <Image src={backup} alt="backup" />
+            <img src={"/images/img/backup.webp"} alt="backup" />
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography

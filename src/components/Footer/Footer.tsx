@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import styles from "./Footer.module.css";
-import MailIcon from "../../images/Emailsmall.svg";
-import PhoneSmallIcon from "../../images/phoneSmall.svg";
+import MailIcon from "../../image/Emailsmall.svg";
+import PhoneSmallIcon from "../../image/phoneSmall.svg";
 
 export const Footer = () => {
   return (

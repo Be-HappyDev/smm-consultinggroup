@@ -1,5 +1,5 @@
-import MailIcon from "../../images/Emailsmall.svg";
-import IphoneIcon from "../../images/phoneSmall.svg";
+import MailIcon from "../../image/Emailsmall.svg";
+import IphoneIcon from "../../image/phoneSmall.svg";
 import styles from "./Header.module.css";
 
 export const IconComp = () => {

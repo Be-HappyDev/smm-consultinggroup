@@ -115,7 +115,7 @@ export const ItServices = [
   },
   {
     menu: "Pricing",
-    slug: "pricing",
+    slug: "/pricing",
   },
   {
     menu: "Our Story",
@@ -125,7 +125,7 @@ export const ItServices = [
   },
   {
     menu: "Contact Us",
-    slug: "contact",
+    slug: "/contact",
   },
 ];
 
