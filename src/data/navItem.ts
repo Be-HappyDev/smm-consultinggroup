@@ -137,6 +137,6 @@ export const OurStory = [
 
 export const OurTeam = [
   {
-    dropdown: [{ menuItem: "Maira Suiunushova CEO", slug: "mairasuiunushova.ru" }],
+    dropdown: [{ menuItem: "Maira Suiunushova CEO", slug: "mairasuiunyshova.ru" }],
   },
 ];
