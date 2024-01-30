@@ -118,6 +118,10 @@ export const ItServices = [
     slug: "/pricing",
   },
   {
+    menu: "Articles",
+    slug: "/articles",
+  },
+  {
     menu: "Our Story",
   },
   {
