@@ -23,10 +23,9 @@ export const HomePage = () => {
                 marginBottom: "14px",
                 fontSize: "40px",
                 fontWeight: "bold",
-                maxWidth: "330px",
               }}
             >
-              We supply the perfect IT to grow your business
+              Looking to expand your business?
             </Typography>
             <Typography
               variant="body2"
@@ -37,7 +36,9 @@ export const HomePage = () => {
                 lineHeight: "25px",
               }}
             >
-              Do you need help with an IT-related concern? Contact us today.
+              We provide the ideal IT solutions to support your growth. Need
+              assistance resolving any of your IT-related issues? Get in
+              touch with us now.
             </Typography>
           </div>
           <div className={styles.topSectionRight}>
@@ -58,7 +59,7 @@ export const HomePage = () => {
                 fontWeight: cstyles.fontWeights.bold,
               }}
             >
-              What we can do for you
+              How we can help you
             </Typography>
             <Typography
               variant="h2"
@@ -70,7 +71,8 @@ export const HomePage = () => {
                 textAlign: "center",
               }}
             >
-              IT can increase your profits; work faster and smarter
+              Our services can enhance your earnings, improve efficiency, and
+              boost productivity.
             </Typography>
             <Typography
               variant="body2"
@@ -82,9 +84,9 @@ export const HomePage = () => {
                 textAlign: "center",
               }}
             >
-              By automating work, leveraging the latest tools and maintaining
-              secure systems, your technology will become a driving force behind
-              your company its growth.
+              By implementing automation, utilizing cutting-edge tools, and
+              ensuring the security of your systems, we can transform your
+              technology into a catalyst for your company{"'"}s expansion.
             </Typography>
             <div className={styles.contentInfoCards}>
               <Link href={`/it-infrastructure`}>
@@ -278,7 +280,7 @@ export const HomePage = () => {
                 fontWeight: "bold",
               }}
             >
-              Get an edge with the best tech
+              Stay ahead of the game with cutting-edge technology.
             </Typography>
             <Typography
               variant="h3"
@@ -286,30 +288,32 @@ export const HomePage = () => {
               sx={{
                 marginBottom: "10px",
                 fontWeight: "bold",
-                fontSize: "40px",
+                fontSize: "30px",
               }}
             >
-              Your full-service IT provider in United States
+              We are a comprehensive IT partner in the United States, offering a
+              wide range of services.
             </Typography>
             <Typography
               variant="body2"
               component="p"
               sx={{ marginBottom: "15px", fontSize: "15px", fontWeight: "600" }}
             >
-              With more than 8+ years in the IT-management and technology
-              consulting industry, our team has nearly unmatched expertise and
-              knowledge. We don’t just settle for the basics. Instead, our team
-              constantly trains, so we can live up to our reputation of giving
-              the very best the market has to offer
+              With over 8 years of experience in IT management and technology
+              consulting, our team possesses unparalleled expertise and
+              knowledge. We never settle for mediocrity. Instead, we
+              consistently update our skills to deliver the top-of-the-line
+              solutions the market has to offer.
             </Typography>
             <Typography
               variant="body2"
               component="p"
-              sx={{ marginBottom: "15px", fontSize: "15px", fontWeight: "600" }}
+              sx={{ fontSize: "15px", fontWeight: "600" }}
             >
-              As such, our clients praise us for being able to handle everything
-              they need - and express their appreciation by staying with us,
-              often decades!
+              As a result, our clients commend our ability to meet all their
+              needs, and their loyalty is a testament to our exceptional
+              service. Many of them have been with us for decades and continue
+              to express their gratitude.
             </Typography>
           </Box>
         </Box>

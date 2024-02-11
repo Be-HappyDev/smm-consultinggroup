@@ -48,8 +48,9 @@ export const ItManagementPage = () => {
               marginBottom: "24px",
             }}
           >
-            As your technology partner, we take responsibility for your systems.
-            Making sure everything is as desired, constantly.
+            As your trusted technology ally, we are fully accountable for
+            ensuring the smooth operation of your systems, consistently meeting
+            your expectations at all times.
           </Typography>
         </Box>
       </Section>
@@ -177,7 +178,7 @@ export const ItManagementPage = () => {
                 marginBottom: "20px",
               }}
             >
-              Unlimited helpdesk and support
+              24/7 instant assistance and support
             </Typography>
             <Typography
               variant="body2"
@@ -188,9 +189,10 @@ export const ItManagementPage = () => {
                 fontSize: "18px",
               }}
             >
-              Remote support is the next best thing to having an onsite IT
-              person. We offer this service for the most rapid response to
-              support issues. We are always just a call/web request away.
+              Get immediate help and support without any limits. Our remote
+              support service ensures the fastest response time to resolve any
+              issues you may have. We are available round the clock, just a
+              phone call or web request away.
             </Typography>
           </div>
           <div className={styles.Chat}>
@@ -321,7 +323,8 @@ export const ItManagementPage = () => {
                 marginBottom: "20px",
               }}
             >
-              Proactive maintenance
+              We prioritize taking preventative action rather than waiting for
+              problems to arise.
             </Typography>
             <Typography
               variant="body2"
@@ -332,10 +335,10 @@ export const ItManagementPage = () => {
                 fontSize: "18px",
               }}
             >
-              We build proactive instead of reactive solutions to problems.
-              System failure overtime is a fact of life. Investing in being
-              proactive to keep systems safe, secure and stable is always
-              preferable to extended downtime.
+              We understand that systems can fail over time, so we focus on
+              being proactive by investing in measures to ensure the safety,
+              security, and stability of systems. This approach helps us avoid
+              extended periods of system downtime.
             </Typography>
           </div>
         </GridBox>
@@ -364,7 +367,7 @@ export const ItManagementPage = () => {
                 marginBottom: "20px",
               }}
             >
-              Status monitoring
+              Real-time tracking.
             </Typography>
             <Typography
               variant="body2"
@@ -375,8 +378,9 @@ export const ItManagementPage = () => {
                 fontSize: "18px",
               }}
             >
-              We understand your IT to a {"'T'"} and will inform you whenever
-              something requires your attention.
+              We have a comprehensive understanding of your IT infrastructure
+              and will promptly notify you whenever there is a matter that needs
+              your attention.
             </Typography>
             <Typography
               variant="body2"
@@ -387,24 +391,9 @@ export const ItManagementPage = () => {
                 fontSize: "18px",
               }}
             >
-              Whether it is hardware depreciation, employee behavior or possible
-              efficiency gains; we keep you in the loop.
-            </Typography>
-            <Typography
-              variant="body2"
-              component="p"
-              sx={{
-                marginBottom: "20px",
-                fontWeight: cstyles.fontWeights.bold,
-                fontSize: "18px",
-                padding: "20px",
-                backgroundColor: "#fff",
-                borderRadius: "20px",
-              }}
-            >
-              We utilize {"'EDR: Endpoint Detection Response Technology'"},
-              which maps a team member{"'"}s regular activity and informs us
-              when outlier events occur.
+              From tracking hardware performance and analyzing employee conduct
+              to identifying potential productivity enhancements, we ensure you
+              stay well-informed.
             </Typography>
           </div>
           <div className={styles.telephonyVoIPPhoto}>
@@ -439,7 +428,8 @@ export const ItManagementPage = () => {
                 marginBottom: "20px",
               }}
             >
-              Cyber security & anti-virus
+              Protecting against cyber threats and implementing robust antivirus
+              measures is crucial in today{"'"}s interconnected world
             </Typography>
             <Typography
               variant="body2"
@@ -450,10 +440,11 @@ export const ItManagementPage = () => {
                 fontSize: "18px",
               }}
             >
-              Many businesses are purely digital. Imagine if your data was lost.
-              It happens more often than you think. Whether it is an outside
-              attack, or internal corruption, we ensure your business
-              continuity.
+              With the rapid digitization of business operations, the risk of
+              data loss has become all too real. Whether it stems from external
+              hacking attempts or internal malfeasance, we prioritize
+              safeguarding your valuable data and ensuring uninterrupted
+              business operations.
             </Typography>
             <List>
               <ListItem
@@ -515,16 +506,6 @@ export const ItManagementPage = () => {
                   End-to-end protection
                 </Typography>
                 <Typography
-                  variant="h4"
-                  component={"h4"}
-                  sx={{
-                    fontSize: "20px",
-                    fontWeight: cstyles.fontWeights.bold,
-                  }}
-                >
-                  Your business is destroyed in 5 minutes
-                </Typography>
-                <Typography
                   variant="body2"
                   component={"p"}
                   sx={{
@@ -532,10 +513,13 @@ export const ItManagementPage = () => {
                     fontWeight: cstyles.fontWeights.medium,
                   }}
                 >
-                  It takes 10 years to build a business and just 1 clever hack
-                  to corrupt all its data. The dark-web makes buying an attack
-                  as easy as going to the supermarket. Don{"'"}t risk it. We can
-                  protect you.
+                  Do not put your business at risk. It takes years to establish
+                  a successful business, but just a single breach can destroy it
+                  in minutes. In today{"'"}s digital age, hackers can easily
+                  obtain the means to attack your business and corrupt all its
+                  valuable data. Don{"'"}t let this happen to you. Trust us to
+                  safeguard your business and keep you protected from
+                  potential threats.
                 </Typography>
               </div>
             </div>
@@ -580,9 +564,10 @@ export const ItManagementPage = () => {
                 fontSize: "18px",
               }}
             >
-              What happens in case of a fire, flood, or (shark-)tornado? Data is
-              fragile. Every business requires back-ups on multiple geographic
-              locations.
+              Considering the unpredictability of events like fires, floods, or
+              even shark-tornados, it is essential to prioritize the safety of
+              data. Ensuring data is kept secure entails implementing backup
+              measures across multiple geographic locations for every business.
             </Typography>
             <List>
               <ListItem

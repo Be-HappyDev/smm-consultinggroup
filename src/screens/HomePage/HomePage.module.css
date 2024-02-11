@@ -13,6 +13,7 @@
   z-index: 2;
   padding: 36px;
   display: flex;
+  justify-content: center;
   padding-top: 60px;
   padding-bottom: 60px;
   box-shadow: var(--shadow);
@@ -166,10 +167,14 @@
   z-index: 2;
   max-width: 515px;
   border-radius: 10px;
-  padding: 48px;
+  padding: 30px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
   width: 100%;
   background-color: #fff;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /* end 4 section */

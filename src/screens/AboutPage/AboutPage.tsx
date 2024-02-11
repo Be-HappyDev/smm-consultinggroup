@@ -32,7 +32,7 @@ export const AboutPage = () => {
             }}
           >
             {
-              '"We assess your business, its processes and goals so we can offer best-fit solutions."'
+              '"We thoroughly analyze your business, its operations and objectives in order to provide tailored solutions that align perfectly with your needs."'
             }
           </Typography>
           <Typography
@@ -59,9 +59,10 @@ export const AboutPage = () => {
               marginBottom: "20px",
             }}
           >
-            We strive to create lasting relationships with our clients - and
-            have been successful in doing so. You can rest assured that we are
-            able to take care of everything you need.
+            Our track record speaks for itself when it comes to building
+            enduring partnerships with our clients. You can have complete peace
+            of mind knowing that we have the expertise and capabilities to
+            handle all your requirements effortlessly.
           </Typography>
         </Box>
       </Container>
@@ -82,10 +83,12 @@ export const AboutPage = () => {
                   fontWeight: "bold",
                   color: "#fff",
                   marginBottom: { xs: "25px", md: "50px" },
-                  fontSize: { xs: "25px", md: "50px" },
+                  fontSize: "25px",
+                  textAlign: "center",
                 }}
               >
-                We offer the exact IT your business needs
+                Our IT solutions are tailored to meet your specific business
+                requirements
               </Typography>
               <Box
                 component={"div"}
@@ -148,10 +151,10 @@ export const AboutPage = () => {
                       fontSize: { xs: "13px", md: "17px" },
                     }}
                   >
-                    We ensure that we can provide the full range of services.
-                    This way, you can partner up with us comfortably, knowing we
-                    are able to anticipate, respond and manage all IT-related
-                    scenarios.
+                    As a comprehensive technology partner, we guarantee to cater
+                    to all your IT needs. With our expertise, you can trust us
+                    to be proactive, responsive, and efficient in managing every
+                    aspect of your IT systems.
                   </Typography>
                 </Box>
               </Box>
@@ -216,9 +219,11 @@ export const AboutPage = () => {
                       fontSize: { xs: "13px", md: "17px" },
                     }}
                   >
-                    What makes us stand out from other service providers is our
-                    experience in analyzing business processes and selecting the
-                    right technology to enhance profitability and ease of use.
+                    Optimal Technology Integration Our unique advantage lies in
+                    our ability to assess your business operations and recommend
+                    the perfect technology solutions that not only boost your
+                    profitability, but also streamline your
+                    day-to-day operations.
                   </Typography>
                 </Box>
               </Box>
@@ -230,7 +235,10 @@ export const AboutPage = () => {
       <Section>
         <Box component={"div"} className={styles.compensateLayout}>
           <Box component={"div"} className={styles.leftPhotoBlock}>
-            <img src={"/images/img/internetAndConnectivity.webp"} alt={"technicians"} />
+            <img
+              src={"/images/img/internetAndConnectivity.webp"}
+              alt={"technicians"}
+            />
           </Box>
           <Box component={"div"} className={styles.rightContentBlock}>
             <Typography
@@ -254,34 +262,38 @@ export const AboutPage = () => {
                 fontSize: { xs: "16px", md: "30px" },
               }}
             >
-              Decades of experience in offering perfect-fit solutions
+              With years of honed expertise
             </Typography>
             <Typography
               variant="body2"
               component="p"
-              sx={{ marginBottom: "15px", fontSize: { xs: "12px", md: "15px" }, fontWeight: "600" }}
+              sx={{
+                marginBottom: "15px",
+                fontSize: { xs: "12px", md: "15px" },
+                fontWeight: "600",
+              }}
             >
-              SMM Consulting Group is a locally owned Technology Services
-              Provider, offering a full range of IT services to business of all
-              sizes and industries in United States.
+              SMM Consulting Group provides tailored solutions to meet your
+              every need. As a locally owned Technology Services Provider, we
+              offer a comprehensive range of IT services to businesses across
+              various industries in the United States.
             </Typography>
+
             <Typography
               variant="body2"
               component="p"
-              sx={{ marginBottom: "15px", fontSize: { xs: "12px", md: "15px" }, fontWeight: "600" }}
+              sx={{
+                marginBottom: "15px",
+                fontSize: { xs: "12px", md: "15px" },
+                fontWeight: "600",
+              }}
             >
-              We work to make technology easy to understand and effortless to
-              apply to business and personal needs.
-            </Typography>
-            <Typography
-              variant="body2"
-              component="p"
-              sx={{ marginBottom: "15px", fontSize: { xs: "12px", md: "15px" }, fontWeight: "600" }}
-            >
-              Starting with your technology pain points, we identify where we
-              can help. You can count on us to suggest solutions which make you
-              more profitable and which make your business processes more
-              streamlined.
+              Our mission is to simplify technology, making it not only
+              comprehensible but also seamlessly applicable to both your
+              business and personal endeavors. By pinpointing your specific pain
+              points, we determine where our assistance will be invaluable.
+              Trust us to recommend solutions that enhance your profitability
+              and streamline your business processes.
             </Typography>
           </Box>
         </Box>

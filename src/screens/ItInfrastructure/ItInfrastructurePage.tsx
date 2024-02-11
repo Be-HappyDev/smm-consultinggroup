@@ -24,7 +24,7 @@ export const ItInfrastructurePage = () => {
               marginBottom: "15px",
             }}
           >
-            Speed, expertise and value
+            Efficiency, mastery, and affordability
           </Typography>
           <Typography
             variant="h1"
@@ -48,8 +48,8 @@ export const ItInfrastructurePage = () => {
               marginBottom: "24px",
             }}
           >
-            Avoid frustrations, costly downtime and ensure maximum compatibility
-            between your systems.
+            Steer clear of annoyances, expensive interruptions, and foster
+            seamless harmonization among your systems.
           </Typography>
           <Typography
             variant="body2"
@@ -61,8 +61,8 @@ export const ItInfrastructurePage = () => {
               textAlign: "center",
             }}
           >
-            We assist in planning and installing your new IT infrastructure, so
-            you can enjoy optimal results and value.
+            We aid in strategizing and implementing your upcoming IT framework,
+            enabling you to relish in utmost performance and cost-effectiveness.
           </Typography>
         </Box>
       </Section>
@@ -133,9 +133,10 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              We learn your business, we offer the best solutions available to
-              fit your current need and pain points and work towards making sure
-              you are happy and everything has been handled in a timely manner
+              We familiarize ourselves with your business and provide the most
+              suitable solutions to address your current requirements and
+              challenges. Our goal is to ensure your satisfaction and handle
+              everything promptly.
             </Typography>
             <Typography
               variant="body2"
@@ -146,8 +147,9 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              We work with clients through the whole process and manage
-              projects, buildouts, cleanup of networks, servers rooms etc.
+              We collaborate with clients throughout the entire process, taking
+              care of project management, infrastructure setup, and maintenance
+              tasks such as network and server room cleanup.
             </Typography>
 
             <List>
@@ -209,9 +211,9 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              We sell and offer servers, desktops, laptops, printers and the
-              full range of equipment to keep your business up to date with the
-              latest technology.
+              We provide a wide range of technology products, including servers,
+              desktops, laptops, printers, and other equipment necessary for
+              keeping your business at the forefront of technology.
             </Typography>
           </div>
           <div className={styles.hardwarePhoto}>
@@ -247,9 +249,10 @@ export const ItInfrastructurePage = () => {
                     fontWeight: cstyles.fontWeights.medium,
                   }}
                 >
-                  Our extensive experience across various industries allows us
-                  to make design and performance suggestions that you and your
-                  team are sure to love.
+                  With our substantial knowledge spanning multiple industries,
+                  we are well-equipped to offer design and performance
+                  recommendations that are certain to be well-received by
+                  you and your team.
                 </Typography>
               </div>
             </div>
@@ -260,7 +263,6 @@ export const ItInfrastructurePage = () => {
         <GridBox className={cn(styles.cloudSolution)}>
           <div className={styles.cloudSolutionPhoto}>
             <img src="/images/img/CloudSolution.webp" alt="CloudSolution" />
-        
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography
@@ -284,7 +286,8 @@ export const ItInfrastructurePage = () => {
                 marginBottom: "20px",
               }}
             >
-              Cloud solutions and Remote Desktops
+              Cloud solutions and remote desktops are essential in today{"'"}s
+              world
             </Typography>
             <Typography
               variant="body2"
@@ -295,9 +298,8 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              The new normal calls for new solutions. Our remote desktops allows
-              your staff to work remotely, while you maintain control over your
-              business.
+              They enable your employees to work from anywhere while still
+              allowing you to manage your business effectively.
             </Typography>
             <List>
               <ListItem
@@ -360,16 +362,18 @@ export const ItInfrastructurePage = () => {
               IT installation
             </Typography>
             <Typography
-              variant="h3"
-              component={"h3"}
+              variant="body2"
+              component="p"
               sx={{
-                color: "#000",
-                fontWeight: cstyles.fontWeights.bold,
-                fontSize: "40px",
                 marginBottom: "20px",
+                fontWeight: cstyles.fontWeights.bold,
+                fontSize: "18px",
               }}
             >
-              Telephony and VoIP
+              Today, we find that many traditional telephone systems are closed
+              and require ongoing contracts and hardware upgrades every few
+              years. However, there is a better solution available called hosted
+              Voice over Internet Protocol (VoIP).
             </Typography>
             <Typography
               variant="body2"
@@ -380,22 +384,11 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              Most premises-based PBX products are typically proprietary, carry
-              annual service contracts, and require hardware replacement/updates
-              every two to three years. Eliminate these drawbacks hosted VoIP!
-            </Typography>
-            <Typography
-              variant="body2"
-              component="p"
-              sx={{
-                marginBottom: "20px",
-                fontWeight: cstyles.fontWeights.bold,
-                fontSize: "18px",
-              }}
-            >
-              Hosted VoIP is the better and long-term option for high-quality
-              business phone service especially for small to medium-sized
-              businesses.
+              Hosted VoIP offers a more favorable and sustainable choice for
+              small to medium-sized businesses in need of reliable and
+              high-quality telephone service. With hosted VoIP, businesses can
+              overcome the limitations of proprietary systems and avoid the
+              hassle of regular hardware replacements and service contracts.
             </Typography>
           </div>
           <div className={styles.telephonyVoIPPhoto}>
@@ -407,7 +400,6 @@ export const ItInfrastructurePage = () => {
         <GridBox className={cn(styles.securityCamera)}>
           <div className={styles.cloudSolutionPhoto}>
             <img src="/images/img/securityCamera.webp" alt="Camera" />
-      
           </div>
           <div className={styles.cloudSolutionContent}>
             <Typography
@@ -442,9 +434,9 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              With the fusion of cloud storage and security cameras, trade-offs
-              between quality, size, pricing and storage capability have been
-              eliminated.
+              The combination of cloud storage and the technology of these
+              cameras has eliminated the need to compromise on factors such as
+              quality, size, price, and storage capacity.
             </Typography>
             <Typography
               variant="body2"
@@ -455,8 +447,9 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              We offer the best in enterprise protection by delivering a
-              solution that scales limitlessly and is effortless to use.
+              We provide top-notch protection for businesses by offering a
+              solution that can be expanded without limits and is
+              extremely user-friendly.
             </Typography>
             <List>
               <ListItem
@@ -520,10 +513,10 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              Protect your office by making sure that unwanted visitors stay
-              where they should; outside. We assess your situation and install
-              an access control system (ACS) that offers flexibility,
-              dependability and ease of use.
+              (ACS) are designed to secure your office premises by ensuring that
+              unauthorized individuals are kept outside. We evaluate your needs
+              and implement an ACS that provides flexibility, reliability, and
+              user-friendliness.
             </Typography>
             <Typography
               variant="body2"
@@ -534,9 +527,10 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              There has been a lot of innovation in ACS industry and it allows a
-              variety of options; biometrics, access codes, allowing temporary
-              access from a remote location and more. businesses.
+              The ACS industry has experienced significant advancements,
+              offering a range of options such as biometrics, access codes,
+              remote temporary access, and many more for
+              businesses to choose from.
             </Typography>
           </div>
           <div className={styles.telephonyVoIPPhoto}>
@@ -547,7 +541,10 @@ export const ItInfrastructurePage = () => {
       <Section id="environmentalMonitoring">
         <GridBox className={cn(styles.envMonitoring)}>
           <div className={styles.telephonyVoIPPhoto}>
-            <img src={"/images/img/monitoringSystems.webp"} alt="envMonitoring" />
+            <img
+              src={"/images/img/monitoringSystems.webp"}
+              alt="envMonitoring"
+            />
           </div>
           <div className={styles.telephonyVoIPContent}>
             <Typography
@@ -582,10 +579,11 @@ export const ItInfrastructurePage = () => {
                 fontSize: "18px",
               }}
             >
-              Collect data on environmental factors within your office. Knowing
-              and dynamically adjusting humidity levels, temperature and more is
-              paramount to supporting employee health and well-being, as well as
-              protecting any assets exposed to the elements.
+              Gather information about the environmental conditions in your
+              workplace. It is crucial to be aware of and actively control
+              factors like humidity, temperature, and others in order to promote
+              the health and well-being of employees, as well as safeguard any
+              items that might be affected by the environment.
             </Typography>
           </div>
         </GridBox>

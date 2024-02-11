@@ -14,8 +14,12 @@
 }
 
 .blockRight {
+  box-sizing: content-box;
   width: 100%;
-  padding: 70px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .compensateLayout {
@@ -89,9 +93,6 @@
   }
 }
 
-
-
-
 @media screen and (max-width: 1025px) {
   .compensateLayout {
     grid-auto-rows: inherit;
@@ -109,9 +110,8 @@
   }
 }
 
-
 @media screen and (max-width: 769px) {
-  .rightContentBlock{
+  .rightContentBlock {
     height: inherit;
   }
 }
@@ -126,7 +126,7 @@
   }
 }
 @media screen and (max-width: 481px) {
-  .rightContentBlock{
+  .rightContentBlock {
     height: inherit;
     padding: 30px;
   }
@@ -150,7 +150,7 @@
     text-align: center;
     font-size: 16px;
   }
-  .rightContentBlock{
+  .rightContentBlock {
     height: inherit;
   }
 }

@@ -35,7 +35,7 @@ export const ContactPage = () => {
             >
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.8203674389247!2d-81.55075612545569!3d30.185124911893404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5cb6d5b84abff%3A0x6b9ab56b45d412d8!2s10175%20Fortune%20Pkwy%20UNIT%201103%2C%20Jacksonville%2C%20FL%2032256%2C%20%D0%A1%D0%A8%D0%90!5e0!3m2!1sru!2skg!4v1705946732020!5m2!1sru!2skg"
-                style={{ border: 0, width: '100%',  height: "450px" }}
+                style={{ border: 0, width: "100%", height: "450px" }}
                 loading="lazy"
                 // referrerpolicy={"no-referrer-when-downgrade"}
               ></iframe>
@@ -76,7 +76,7 @@ export const ContactPage = () => {
                   marginBottom: "70px",
                 }}
               >
-                Don{"'"}t let lackluster technology slow you down.
+                Don{"'"}t allow outdated technology to slow down your progress
               </Typography>
               <Typography
                 variant="h3"
