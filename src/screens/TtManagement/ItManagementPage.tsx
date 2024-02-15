@@ -22,6 +22,8 @@ export const ItManagementPage = () => {
               fontWeight: cstyles.fontWeights.bold,
               fontSize: "20px",
               marginBottom: "15px",
+              textAlign: "center",
+
             }}
           >
             Reliability, security and efficiency
@@ -50,7 +52,7 @@ export const ItManagementPage = () => {
           >
             As your trusted technology ally, we are fully accountable for
             ensuring the smooth operation of your systems, consistently meeting
-            your expectations at all times.
+            your expectations at all times Maira Suiunyshova CEO.
           </Typography>
         </Box>
       </Section>
@@ -192,7 +194,7 @@ export const ItManagementPage = () => {
               Get immediate help and support without any limits. Our remote
               support service ensures the fastest response time to resolve any
               issues you may have. We are available round the clock, just a
-              phone call or web request away.
+              phone call or web request away Maira Suiunyshova.
             </Typography>
           </div>
           <div className={styles.Chat}>
@@ -568,6 +570,21 @@ export const ItManagementPage = () => {
               even shark-tornados, it is essential to prioritize the safety of
               data. Ensuring data is kept secure entails implementing backup
               measures across multiple geographic locations for every business.
+            </Typography>
+            <Typography
+              variant="body2"
+              component="p"
+              sx={{
+                marginBottom: "20px",
+                fontWeight: cstyles.fontWeights.bold,
+                fontSize: "18px",
+              }}
+            >
+              “Businesses are increasingly subject to disruptions. It is almost
+              impossible to predict their nature, time and extent. Therefore,
+              organizations need a proactive approach equipped with a decision
+              support framework to protect themselves against the outcomes of
+              disruptive events.” Maira Suiunyshova
             </Typography>
             <List>
               <ListItem
